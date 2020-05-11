@@ -1,0 +1,9 @@
+C:\Users\mukht\source\repos\3_funt_kg\bin\Debug\3_funt_kg.exe.config
+C:\Users\mukht\source\repos\3_funt_kg\bin\Debug\3_funt_kg.exe
+C:\Users\mukht\source\repos\3_funt_kg\bin\Debug\3_funt_kg.pdb
+C:\Users\mukht\source\repos\3_funt_kg\obj\Debug\3_funt_kg.csprojAssemblyReference.cache
+C:\Users\mukht\source\repos\3_funt_kg\obj\Debug\_3_funt_kg.Form1.resources
+C:\Users\mukht\source\repos\3_funt_kg\obj\Debug\_3_funt_kg.Properties.Resources.resources
+C:\Users\mukht\source\repos\3_funt_kg\obj\Debug\3_funt_kg.csproj.GenerateResource.cache
+C:\Users\mukht\source\repos\3_funt_kg\obj\Debug\3_funt_kg.exe
+C:\Users\mukht\source\repos\3_funt_kg\obj\Debug\3_funt_kg.pdb
