@@ -1,0 +1,9 @@
+C:\Users\mukht\source\repos\Бегущая строка_\bin\Debug\Бегущая строка_.exe.config
+C:\Users\mukht\source\repos\Бегущая строка_\bin\Debug\Бегущая строка_.exe
+C:\Users\mukht\source\repos\Бегущая строка_\bin\Debug\Бегущая строка_.pdb
+C:\Users\mukht\source\repos\Бегущая строка_\obj\Debug\Бегущая строка_.csprojAssemblyReference.cache
+C:\Users\mukht\source\repos\Бегущая строка_\obj\Debug\Бегущая_строка_.Form1.resources
+C:\Users\mukht\source\repos\Бегущая строка_\obj\Debug\Бегущая_строка_.Properties.Resources.resources
+C:\Users\mukht\source\repos\Бегущая строка_\obj\Debug\Бегущая строка_.csproj.GenerateResource.cache
+C:\Users\mukht\source\repos\Бегущая строка_\obj\Debug\Бегущая строка_.exe
+C:\Users\mukht\source\repos\Бегущая строка_\obj\Debug\Бегущая строка_.pdb
