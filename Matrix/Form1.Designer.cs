@@ -28,11 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.Bobr = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
@@ -44,7 +45,7 @@
             this.B_Rows = new System.Windows.Forms.NumericUpDown();
             this.bPlus = new System.Windows.Forms.Button();
             this.bMul = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
+            this.subBtn = new System.Windows.Forms.Button();
             this.A_Rows = new System.Windows.Forms.NumericUpDown();
             this.A_Collum = new System.Windows.Forms.NumericUpDown();
             this.label1 = new System.Windows.Forms.Label();
@@ -55,6 +56,7 @@
             this.button2 = new System.Windows.Forms.Button();
             this.ClearA = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.Aobr = new System.Windows.Forms.Button();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.matrixB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.B_Collum)).BeginInit();
@@ -68,6 +70,7 @@
             // groupBox2
             // 
             this.groupBox2.BackColor = System.Drawing.SystemColors.Info;
+            this.groupBox2.Controls.Add(this.Bobr);
             this.groupBox2.Controls.Add(this.button7);
             this.groupBox2.Controls.Add(this.button4);
             this.groupBox2.Controls.Add(this.button6);
@@ -80,26 +83,38 @@
             this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox2.Size = new System.Drawing.Size(251, 482);
+            this.groupBox2.Size = new System.Drawing.Size(251, 499);
             this.groupBox2.TabIndex = 8;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Матрица 2";
+            this.groupBox2.Text = "B Matrix";
+            this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
+            // 
+            // Bobr
+            // 
+            this.Bobr.Location = new System.Drawing.Point(12, 440);
+            this.Bobr.Name = "Bobr";
+            this.Bobr.Size = new System.Drawing.Size(194, 26);
+            this.Bobr.TabIndex = 9;
+            this.Bobr.Text = "Обратнаяматрица";
+            this.Bobr.UseVisualStyleBackColor = true;
+            this.Bobr.Click += new System.EventHandler(this.Bobr_Click);
             // 
             // button7
             // 
             this.button7.Location = new System.Drawing.Point(12, 403);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(185, 30);
+            this.button7.Size = new System.Drawing.Size(194, 30);
             this.button7.TabIndex = 8;
             this.button7.Text = "Найти detB";
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button4
             // 
             this.button4.Location = new System.Drawing.Point(12, 366);
             this.button4.Margin = new System.Windows.Forms.Padding(4);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(191, 28);
+            this.button4.Size = new System.Drawing.Size(194, 28);
             this.button4.TabIndex = 7;
             this.button4.Text = "Занулить";
             this.button4.UseVisualStyleBackColor = true;
@@ -110,7 +125,7 @@
             this.button6.Location = new System.Drawing.Point(12, 330);
             this.button6.Margin = new System.Windows.Forms.Padding(4);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(191, 28);
+            this.button6.Size = new System.Drawing.Size(194, 28);
             this.button6.TabIndex = 5;
             this.button6.Text = "Заполнить случайно";
             this.button6.UseVisualStyleBackColor = true;
@@ -125,25 +140,25 @@
             this.matrixB.ColumnHeadersVisible = false;
             this.matrixB.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn1});
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle1.Format = "N0";
-            dataGridViewCellStyle1.NullValue = "0";
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.matrixB.DefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle9.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle9.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle9.Format = "N0";
+            dataGridViewCellStyle9.NullValue = "0";
+            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.matrixB.DefaultCellStyle = dataGridViewCellStyle9;
             this.matrixB.Location = new System.Drawing.Point(12, 96);
             this.matrixB.Margin = new System.Windows.Forms.Padding(4);
             this.matrixB.Name = "matrixB";
             this.matrixB.RowHeadersVisible = false;
             this.matrixB.RowHeadersWidth = 30;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle2.Format = "N0";
-            dataGridViewCellStyle2.NullValue = "0";
-            this.matrixB.RowsDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle10.Format = "N0";
+            dataGridViewCellStyle10.NullValue = "0";
+            this.matrixB.RowsDefaultCellStyle = dataGridViewCellStyle10;
             this.matrixB.RowTemplate.DefaultCellStyle.Format = "N0";
             this.matrixB.RowTemplate.DefaultCellStyle.NullValue = "0";
             this.matrixB.RowTemplate.ErrorText = "Не верный формат цифр";
@@ -242,25 +257,20 @@
             this.bMul.UseVisualStyleBackColor = false;
             this.bMul.Click += new System.EventHandler(this.bMul_Click);
             // 
-            // button5
+            // subBtn
             // 
-            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(539, 190);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(70, 63);
-            this.button5.TabIndex = 0;
-            this.button5.Text = "-";
-            this.button5.UseVisualStyleBackColor = false;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
+            this.subBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.subBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.subBtn.Location = new System.Drawing.Point(539, 190);
+            this.subBtn.Name = "subBtn";
+            this.subBtn.Size = new System.Drawing.Size(70, 63);
+            this.subBtn.TabIndex = 0;
+            this.subBtn.Text = "-";
+            this.subBtn.UseVisualStyleBackColor = false;
+            this.subBtn.Click += new System.EventHandler(this.subBtn_Click_1);
             // 
             // A_Rows
             // 
-            this.A_Rows.Increment = new decimal(new int[] {
-            2,
-            0,
-            0,
-            0});
             this.A_Rows.Location = new System.Drawing.Point(142, 23);
             this.A_Rows.Margin = new System.Windows.Forms.Padding(4);
             this.A_Rows.Minimum = new decimal(new int[] {
@@ -326,25 +336,25 @@
             this.matrixA.ColumnHeadersVisible = false;
             this.matrixA.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1});
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle3.Format = "N0";
-            dataGridViewCellStyle3.NullValue = "0";
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.matrixA.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle11.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle11.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle11.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle11.Format = "N0";
+            dataGridViewCellStyle11.NullValue = "0";
+            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.matrixA.DefaultCellStyle = dataGridViewCellStyle11;
             this.matrixA.Location = new System.Drawing.Point(12, 96);
             this.matrixA.Margin = new System.Windows.Forms.Padding(4);
             this.matrixA.Name = "matrixA";
             this.matrixA.RowHeadersVisible = false;
             this.matrixA.RowHeadersWidth = 30;
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle4.Format = "N0";
-            dataGridViewCellStyle4.NullValue = "0";
-            this.matrixA.RowsDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle12.Format = "N0";
+            dataGridViewCellStyle12.NullValue = "0";
+            this.matrixA.RowsDefaultCellStyle = dataGridViewCellStyle12;
             this.matrixA.RowTemplate.DefaultCellStyle.Format = "N0";
             this.matrixA.RowTemplate.DefaultCellStyle.NullValue = "0";
             this.matrixA.RowTemplate.ErrorText = "Не верный формат цифр";
@@ -395,6 +405,7 @@
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.SystemColors.Info;
+            this.groupBox1.Controls.Add(this.Aobr);
             this.groupBox1.Controls.Add(this.ClearA);
             this.groupBox1.Controls.Add(this.button2);
             this.groupBox1.Controls.Add(this.button1);
@@ -407,18 +418,28 @@
             this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox1.Size = new System.Drawing.Size(259, 482);
+            this.groupBox1.Size = new System.Drawing.Size(259, 499);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "A matrix";
+            // 
+            // Aobr
+            // 
+            this.Aobr.Location = new System.Drawing.Point(9, 440);
+            this.Aobr.Name = "Aobr";
+            this.Aobr.Size = new System.Drawing.Size(194, 26);
+            this.Aobr.TabIndex = 8;
+            this.Aobr.Text = "Обратнаяматрица";
+            this.Aobr.UseVisualStyleBackColor = true;
+            this.Aobr.Click += new System.EventHandler(this.Aobr_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.ClientSize = new System.Drawing.Size(616, 503);
-            this.Controls.Add(this.button5);
+            this.ClientSize = new System.Drawing.Size(621, 527);
+            this.Controls.Add(this.subBtn);
             this.Controls.Add(this.bMul);
             this.Controls.Add(this.bPlus);
             this.Controls.Add(this.groupBox2);
@@ -456,7 +477,7 @@
         private System.Windows.Forms.NumericUpDown B_Rows;
         private System.Windows.Forms.Button bPlus;
         private System.Windows.Forms.Button bMul;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button subBtn;
         private System.Windows.Forms.NumericUpDown A_Rows;
         private System.Windows.Forms.NumericUpDown A_Collum;
         private System.Windows.Forms.Label label1;
@@ -468,6 +489,8 @@
         private System.Windows.Forms.Button ClearA;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button Bobr;
+        private System.Windows.Forms.Button Aobr;
     }
 }
 

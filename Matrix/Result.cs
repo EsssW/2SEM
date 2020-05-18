@@ -20,12 +20,12 @@ namespace Matrix
         public Result(DataGridView dg, String nresult)
         {
             InitializeComponent();
-            int collCount = dg.ColumnCount;
-            int rowCount = dg.RowCount;
-            dataGridView1.RowCount = rowCount;
-            dataGridView1.ColumnCount = collCount;
-            for (int i = 0; i < collCount; i++)
-                for (int j = 0; j < rowCount; j++)
+            int n = dg.ColumnCount;
+            int m = dg.RowCount;
+            dataGridView1.RowCount = n;
+            dataGridView1.ColumnCount = n;
+            for (int i = 0; i < n; i++)
+                for (int j = 0; j < m; j++)
                     dataGridView1.Rows[j].Cells[i].Value = dg.Rows[j].Cells[i].Value;
 
             groupBox1.Text = "Результат " + nresult;
