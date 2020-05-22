@@ -1,0 +1,9 @@
+C:\Users\mukht\source\repos\Bilaletdinova_Sabina\bin\Debug\Bilaletdinova_Sabina.exe.config
+C:\Users\mukht\source\repos\Bilaletdinova_Sabina\bin\Debug\Bilaletdinova_Sabina.exe
+C:\Users\mukht\source\repos\Bilaletdinova_Sabina\bin\Debug\Bilaletdinova_Sabina.pdb
+C:\Users\mukht\source\repos\Bilaletdinova_Sabina\obj\Debug\Bilaletdinova_Sabina.csprojAssemblyReference.cache
+C:\Users\mukht\source\repos\Bilaletdinova_Sabina\obj\Debug\Bilaletdinova_Sabina.Form1.resources
+C:\Users\mukht\source\repos\Bilaletdinova_Sabina\obj\Debug\Bilaletdinova_Sabina.Properties.Resources.resources
+C:\Users\mukht\source\repos\Bilaletdinova_Sabina\obj\Debug\Bilaletdinova_Sabina.csproj.GenerateResource.cache
+C:\Users\mukht\source\repos\Bilaletdinova_Sabina\obj\Debug\Bilaletdinova_Sabina.exe
+C:\Users\mukht\source\repos\Bilaletdinova_Sabina\obj\Debug\Bilaletdinova_Sabina.pdb
