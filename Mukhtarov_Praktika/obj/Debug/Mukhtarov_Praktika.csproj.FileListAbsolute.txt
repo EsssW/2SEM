@@ -1,0 +1,10 @@
+C:\Users\mukht\source\repos\Mukhtarov_Praktika\bin\Debug\Mukhtarov_Praktika.exe.config
+C:\Users\mukht\source\repos\Mukhtarov_Praktika\bin\Debug\Mukhtarov_Praktika.exe
+C:\Users\mukht\source\repos\Mukhtarov_Praktika\bin\Debug\Mukhtarov_Praktika.pdb
+C:\Users\mukht\source\repos\Mukhtarov_Praktika\obj\Debug\Mukhtarov_Praktika.csprojAssemblyReference.cache
+C:\Users\mukht\source\repos\Mukhtarov_Praktika\obj\Debug\Mukhtarov_Praktika.Form1.resources
+C:\Users\mukht\source\repos\Mukhtarov_Praktika\obj\Debug\Mukhtarov_Praktika.Properties.Resources.resources
+C:\Users\mukht\source\repos\Mukhtarov_Praktika\obj\Debug\Mukhtarov_Praktika.csproj.GenerateResource.cache
+C:\Users\mukht\source\repos\Mukhtarov_Praktika\obj\Debug\Mukhtarov_Praktika.exe
+C:\Users\mukht\source\repos\Mukhtarov_Praktika\obj\Debug\Mukhtarov_Praktika.pdb
+C:\Users\mukht\source\repos\Mukhtarov_Praktika\obj\Debug\Mukhtarov_Praktika.Test.resources
