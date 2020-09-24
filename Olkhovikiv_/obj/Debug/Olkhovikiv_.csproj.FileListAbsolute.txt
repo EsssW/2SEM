@@ -1,0 +1,11 @@
+C:\Users\mukht\source\repos\Olkhovikiv_\obj\Debug\Olkhovikiv_.csprojAssemblyReference.cache
+C:\Users\mukht\source\repos\Olkhovikiv_\obj\Debug\Olkhovikiv_.Form1.resources
+C:\Users\mukht\source\repos\Olkhovikiv_\obj\Debug\Olkhovikiv_.Kg_to_Foot.resources
+C:\Users\mukht\source\repos\Olkhovikiv_\obj\Debug\Olkhovikiv_.Properties.Resources.resources
+C:\Users\mukht\source\repos\Olkhovikiv_\obj\Debug\Olkhovikiv_.csproj.GenerateResource.cache
+C:\Users\mukht\source\repos\Olkhovikiv_\bin\Debug\Olkhovikiv_.exe.config
+C:\Users\mukht\source\repos\Olkhovikiv_\bin\Debug\Olkhovikiv_.exe
+C:\Users\mukht\source\repos\Olkhovikiv_\bin\Debug\Olkhovikiv_.pdb
+C:\Users\mukht\source\repos\Olkhovikiv_\obj\Debug\Olkhovikiv_.exe
+C:\Users\mukht\source\repos\Olkhovikiv_\obj\Debug\Olkhovikiv_.pdb
+C:\Users\mukht\source\repos\Olkhovikiv_\obj\Debug\Olkhovikiv_.Foot_to_Kg.resources
