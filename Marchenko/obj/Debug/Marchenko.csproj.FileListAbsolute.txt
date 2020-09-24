@@ -1,0 +1,11 @@
+C:\Users\mukht\source\repos\Marchenko\bin\Debug\Marchenko.exe.config
+C:\Users\mukht\source\repos\Marchenko\bin\Debug\Marchenko.exe
+C:\Users\mukht\source\repos\Marchenko\bin\Debug\Marchenko.pdb
+C:\Users\mukht\source\repos\Marchenko\obj\Debug\Marchenko.csprojAssemblyReference.cache
+C:\Users\mukht\source\repos\Marchenko\obj\Debug\Marchenko.Form1.resources
+C:\Users\mukht\source\repos\Marchenko\obj\Debug\Marchenko.Properties.Resources.resources
+C:\Users\mukht\source\repos\Marchenko\obj\Debug\Marchenko.csproj.GenerateResource.cache
+C:\Users\mukht\source\repos\Marchenko\obj\Debug\Marchenko.exe
+C:\Users\mukht\source\repos\Marchenko\obj\Debug\Marchenko.pdb
+C:\Users\mukht\source\repos\Marchenko\obj\Debug\Marchenko.MainForm.resources
+C:\Users\mukht\source\repos\Marchenko\obj\Debug\Marchenko.SecondTypeQuestion.resources
